@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: poppins;
+    line-height: 1.4;
+    font-size: 1rem;
+}
+
+.container{
+    max-width: 720px;
+}
+.container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+}
+
+header {
+    text-align: center;
+    padding: 0 0 2rem;
+}
+
+#title{
+    font-weight: 100;
+}
+#description {
+    font-style: italic;
+    font-weight: 200;
+}
+
+
+form {
+    color: white;
+    padding: 2.5rem;
+    border-radius: 0.25rem;
+    background-color: #1b1b32;
+}
+
+.form-group {
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+.form-control {
+    padding: 4px 10px;
+    font-size: 18px;
+    width: 100%;
+    font-family: poppins;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+ }
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+span {
+    margin-left: 0.25rem;
+    font-size: 0.9rem;
+    color: #e4e4e4;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.input-radio, .input-checkbox {
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+.text-box {
+    font-family: poppins;
+    min-height: 120px;
+    width: 100%;
+    padding: 0.625rem;
+    resize: vertical;
+}
+
+#submit {
+    font-size: 18px;
+    font-family: poppins;
+    display: block;
+    width: 100%;
+    padding: 0.6rem;
+    background: #47cf73;
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 0;
+}
